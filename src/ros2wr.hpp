@@ -9,7 +9,7 @@
 
 //if QUEUE_SIZE > 2, you can not use xQueueOverwrite()!!!
 //also use xQueueSend()
-#define QUEUE_SIZE 10
+#define QUEUE_SIZE 3
 
 template<typename MsgTx, typename MsgRx>
 class ROS2WR : public ros2::Node{
